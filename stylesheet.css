@@ -31,9 +31,7 @@ p{
     font-size: 15px;
 }
 
-.desktop-container{
-    
-}
+
 
 .container {
     margin: 10% 40%;
@@ -70,7 +68,7 @@ p{
         }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 530px) {
  
 .container {
 margin: 5rem 2rem;
