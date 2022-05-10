@@ -1,0 +1,93 @@
+
+:root {
+    /* BG Colors */
+    --bg-color-white: hsl(0, 0%, 100%);
+    --bg-color-lightgray: hsl(212, 45%, 89%);
+    --bg-color-grayishblue: hsl(220, 15%, 55%);
+    --bg-color-darkblue: hsl(218, 44%, 22%);
+    }
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+
+}
+
+img{
+max-width: 100%;
+}
+
+body{
+    
+    margin: auto 0;
+    background-color: var(--bg-color-lightgray);
+}
+
+p{
+    font-size: 15px;
+}
+
+.desktop-container{
+    
+}
+
+.container {
+    margin: 10% 40%;
+    }
+
+    .card{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 15px;
+        align-items: center;
+        
+        text-align: center;
+        }
+
+
+        .card__qr img{
+            border-radius: 15px;
+        }
+        .card__title{
+            font-weight: 700;
+            width: 85%;
+            
+        }
+        
+        .card__description{
+        padding-bottom: 1rem;
+        font-weight: 400;
+        width: 90%;
+        color: var(--bg-color-grayishblue);
+        }
+
+
+@media only screen and (max-width: 375px) {
+ 
+.container {
+margin: 5rem 2rem;
+}
+
+}
+
+
+
+
+
+/*
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+
+/*
+
