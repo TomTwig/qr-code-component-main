@@ -24,20 +24,22 @@ img{
 }
 
 body{
+
     background-color: var(--bg-color-lightgray);
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1em;
 }
 
 p{
     font-size: 15px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    margin: 5rem 10rem;
-}
+
 
     .card{
         background-color: white;
@@ -61,6 +63,8 @@ p{
         .card__title{
             font-weight: 700;
             width: 85%;
+            color: var(--bg-color-darkblue);
+            font-size: .6rem;
             
         }
         
@@ -74,8 +78,8 @@ p{
 
 @media only screen and (max-width: 530px) {
  
-.container {
-margin: 2rem 2rem;
+body {
+    padding: 0 1em;
 }
 
 }
